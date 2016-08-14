@@ -1,0 +1,25 @@
+{
+  "name": "node-stringify-object-values",
+  "version": "0.1.0",
+  "description": "Stringify object values",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srph/node-stringify-object-values.git"
+  },
+  "keywords": [
+    "stringify",
+    "webpack",
+    "define plugin",
+    "wepback.DefinePlugin"
+  ],
+  "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
+  }
+}
