@@ -1,4 +1,4 @@
-## stringify-object-values [![npm version](http://img.shields.io/npm/v/stringify-object-values.svg?style=flat)](https://npmjs.org/package/stringify-object-values.svg) [![Build Status](https://travis-ci.org/srph/node-stringify-object-values.svg?branch=master)](https://travis-ci.org/srph/node-stringify-object-values?branch=master)
+## stringify-object-values [![npm version](http://img.shields.io/npm/v/stringify-object-values.svg?style=flat)](https://npmjs.org/package/stringify-object-values) [![Build Status](https://travis-ci.org/srph/node-stringify-object-values.svg?branch=master)](https://travis-ci.org/srph/node-stringify-object-values?branch=master)
 ```
 npm i stringify-object-values
 ```
