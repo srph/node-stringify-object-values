@@ -4,7 +4,9 @@
   "description": "Stringify object values",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test.js"
+    "build": "tsc",
+    "prepublish": "tsc",
+    "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'test.ts'"
   },
   "repository": {
     "type": "git",
@@ -19,7 +21,12 @@
   "author": "Kier Borromeo <seraphipod@gmail.com> (http://srph.github.io)",
   "license": "ISC",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.0.2"
-  }
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  },
+  "files": ["index.js", "index.d.ts"]
 }
